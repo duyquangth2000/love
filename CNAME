@@ -1,1 +1,5 @@
-ngochang.gq
+$ dig ngochang.gq +nostats +nocomments +nocmd
+    > ;ngochang.gq.                    IN      A
+    > ngochang.gq.             3592    IN      CNAME   duyquangth2000.github.io.
+    > duyquangth2000.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+    > GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
